@@ -2,16 +2,12 @@ FROM python:latest
 
 LABEL maintainer="bhawick@outlook.com"
 
-WORKDIR usr/src/workspaces
+WORKDIR usr/src/workspace
 
-VOLUME usr/src/
+COPY ./requirements.txt .
 
-EXPOSE 8888
-
-# COPY ./requirements.txt .
-
-# RUN pip install jupyter && pip install jupytext
-# RUN pip install -r /usr/src/workspaces/requirements.txt
+RUN pip install jupyter && pip install jupytext
+RUN pip install --no-cache-dir -r /usr/src/workspaces/requirements.txt
 
 # CMD ["python","hello-world.py"]
 # CMD ["pip","—no-chache-dir","install","-r","/workspaces/requirements.txt"]
