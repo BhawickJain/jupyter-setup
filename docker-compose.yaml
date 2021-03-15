@@ -8,5 +8,5 @@ services:
     volumes:
       -  ./nb:usr/src/workspace/nb
     working_dir:
-      -  usr/src/nb/
+      -  usr/src/workspace/nb/
     entrypoint: ["jupyter","notebook","--ip='*'","--port=8888", "--no-browser", "--allow-root"]
