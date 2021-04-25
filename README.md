@@ -13,7 +13,7 @@ __TODO__
 `[x]` Pip-version  
 `[ ]` Conda-version  
 `[ ]` Test with a spaCy project (as number of compatibility issues found)  
-`[~]` Develop useful scripts 
+`[~]` Develop useful scripts  
 `[ ]` Explore [Jupyter Labs](http://jupyterlab.io)  
 `[ ]` Create one image with Julia Kernel [this guide](https://www.notion.so/Jupyter-Notebook-using-Docker-for-Data-Science-Melvin-L-951934fd60a344a58e167314135e19df) help this further. 
 
